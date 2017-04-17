@@ -1,0 +1,5 @@
+node_modules/
+build
+my-app*
+packages/lambda-scripts/template
+packages/lambda-scripts/fixtures
