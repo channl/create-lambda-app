@@ -40,12 +40,13 @@
     "eslint-plugin-import": "2.0.1",
     "extract-text-webpack-plugin": "2.1.0",
     "file-loader": "0.10.1",
+    "flow-bin": "^0.44.2",
     "fs-extra": "0.30.0",
     "http-proxy-middleware": "0.17.3",
     "jest": "18.1.0",
+    "lambda-dev-utils": "^0.1.0",
     "object-assign": "4.1.1",
     "promise": "7.1.1",
-    "lambda-dev-utils": "^0.1.0",
     "style-loader": "0.16.0",
     "url-loader": "0.5.8",
     "webpack": "2.3.2",
@@ -53,8 +54,7 @@
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.3"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "optionalDependencies": {
     "fsevents": "1.0.17"
   }

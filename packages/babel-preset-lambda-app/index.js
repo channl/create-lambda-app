@@ -37,6 +37,7 @@ if (env !== 'development' && env !== 'test' && env !== 'production') {
 if (env === 'test') {
   module.exports = {
     presets: [
+      require.resolve('babel-preset-flow'),
       [
         require('babel-preset-env').default,
         {
@@ -53,6 +54,7 @@ if (env === 'test') {
 } else {
   module.exports = {
     presets: [
+      require.resolve('babel-preset-flow'),
       [
         require.resolve('babel-preset-env'),
         {
