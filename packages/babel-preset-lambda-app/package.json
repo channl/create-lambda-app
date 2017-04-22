@@ -1,7 +1,6 @@
-
 {
   "name": "babel-preset-lambda-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babel preset used by Create Lambda App",
   "repository": "channl/create-lambda-app",
   "license": "BSD-3-Clause",
