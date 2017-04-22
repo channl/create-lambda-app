@@ -4,6 +4,7 @@
     "build": "node packages/lambda-scripts/scripts/build.js",
     "create-lambda-app": "tasks/cla.sh",
     "postinstall": "lerna bootstrap",
+    "publish": "tasks/release.sh",
     "start": "node packages/lambda-scripts/scripts/start.js",
     "format": "prettier --trailing-comma es5 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
     "precommit": "lint-staged"
