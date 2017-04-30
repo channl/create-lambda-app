@@ -1,6 +1,6 @@
 {
   "name": "lambda-scripts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Configuration and scripts for Create Lambda App.",
   "repository": "channl/create-lambda-app",
   "license": "BSD-3-Clause",
