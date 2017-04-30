@@ -1,16 +1,16 @@
 /* @flow */
 export type LambdaContext = {
-  callbackWaitsForEmptyEventLoop: any;
-  functionName: string;
-  functionVersion: any;
-  invokedFunctionArn: any;
-  memoryLimitInMB: any;
-  awsRequestId: any;
-  logGroupName: any;
-  logStreamName: any;
-  identity: any;
-  clientContext: any;
-  getRemainingTimeInMillis(): number;
+  callbackWaitsForEmptyEventLoop: boolean,
+  functionName: string,
+  functionVersion: string,
+  invokedFunctionArn: string,
+  memoryLimitInMB: number,
+  awsRequestId: string,
+  logGroupName: string,
+  logStreamName: ?string,
+  identity: ?Object,
+  clientContext: ?Object,
+  getRemainingTimeInMillis(): number,
 };
 
 export type LambdaCallbackFunc = (error: ?Error, result: ?Object) => void;
