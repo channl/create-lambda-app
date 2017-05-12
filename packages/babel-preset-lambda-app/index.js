@@ -6,11 +6,12 @@
  * LICENSE file in the root directory of this source tree. An additional grant
  * of patent rights can be found in the PATENTS file in the same directory.
  */
- 'use strict';
+'use strict';
 
 var path = require('path');
 
 const plugins = [
+  require.resolve('babel-plugin-transform-decorators-legacy'),
   require.resolve('babel-plugin-transform-class-properties'),
   [
     require.resolve('babel-plugin-transform-object-rest-spread'),
