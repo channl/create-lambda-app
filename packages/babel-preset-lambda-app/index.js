@@ -60,7 +60,7 @@ if (env === 'test') {
         require.resolve('babel-preset-env'),
         {
           targets: {
-            node: 6.1,
+            node: '6.1',
           },
           useBuiltIns: false,
           modules: false,
